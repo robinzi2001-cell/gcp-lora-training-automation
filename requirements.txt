@@ -1,0 +1,42 @@
+# Google Cloud Platform
+google-cloud-compute>=1.15.0
+google-cloud-storage>=2.10.0
+google-auth>=2.23.0
+
+# Machine Learning & Training
+torch>=2.1.0
+torchvision>=0.16.0
+torchaudio>=2.1.0
+diffusers>=0.25.0
+transformers>=4.36.0
+accelerate>=0.25.0
+xformers>=0.0.23
+safetensors>=0.4.1
+huggingface-hub>=0.20.0
+
+# Optimization
+bitsandbytes>=0.41.0
+prodigyopt>=1.0
+
+# Image Processing
+Pillow>=10.0.0
+opencv-python>=4.8.0
+
+# Monitoring & Logging
+tensorboard>=2.15.0
+wandb>=0.16.0
+omegaconf>=2.3.0
+
+# Utilities
+einops>=0.7.0
+pytorch-lightning>=2.1.0
+tqdm>=4.66.0
+
+# Data Handling
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Optional (for MCP Server)
+fastapi>=0.109.0
+uvicorn>=0.27.0
+pydantic>=2.5.0
